@@ -8,7 +8,7 @@ SET SERVEROUTPUT ON
 	centimeters NUMBER;
 	 meters NUMBER;
  BEGIN
-r feet := &feet; 
+ feet := &feet; 
 
  inches := feet * 12; 
 
@@ -25,3 +25,4 @@ DBMS_OUTPUT.PUT_LINE('Centimeters : ' || centimeters);
 
  END; 
 / 
+
