@@ -16,8 +16,6 @@ SET SERVEROUTPUT ON
  
  meters := feet * 0.3048; 
 
-foot = 0.3048 meter 
-
  DBMS_OUTPUT.PUT_LINE('Feet : ' || feet);
  DBMS_OUTPUT.PUT_LINE('Inches : ' || inches); 
 DBMS_OUTPUT.PUT_LINE('Centimeters : ' || centimeters);
@@ -25,4 +23,5 @@ DBMS_OUTPUT.PUT_LINE('Centimeters : ' || centimeters);
 
  END; 
 / 
+
 
